@@ -8,7 +8,7 @@ export function Header() {
     <nav>
       <Container>
         <div className="header">
-          <Link to="/home">
+          <Link to="/">
             <img src={logo} alt="logo" />
           </Link>
 
@@ -16,7 +16,7 @@ export function Header() {
             <li className="item">
               <Link to="/">Home </Link>
             </li>
-            <li className="item">
+            <li className="item"></li>
               <Link to="/cadastro">Cadastro </Link>
             </li>
             <li className="item">
