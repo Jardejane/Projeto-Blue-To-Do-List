@@ -9,7 +9,7 @@ export function Newfilme() {
     filme.cost = 0;
     filme.services = [];
 
-    fetch(' http://localhost:5000/films', {
+    fetch(' https://list-to-do-heroku.herokuapp.com/api/films', {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',

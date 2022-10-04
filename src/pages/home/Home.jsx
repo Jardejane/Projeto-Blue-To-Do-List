@@ -8,7 +8,7 @@ export function Home() {
   const [filme, setFilme] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/films', {
+    fetch('https://list-to-do-heroku.herokuapp.com/api/films', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -23,7 +23,7 @@ export function Home() {
   }, []);
 
   function removeFilme(id) {
-    fetch(`http://localhost:5000/films/${id}`, {
+    fetch(`https://list-to-do-heroku.herokuapp.com/api/films/${id}`, {
       method: 'DELETE',
       headers: {
         'Content-Type': 'application/json',
