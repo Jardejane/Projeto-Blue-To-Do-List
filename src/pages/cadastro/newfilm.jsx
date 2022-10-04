@@ -21,7 +21,7 @@ export function Newfilme() {
       })
       .then((filme) => {
         console.log(filme);
-        history.push('/home');
+        history.push('/');
       })
       .catch((err) => alert(err));
   }
