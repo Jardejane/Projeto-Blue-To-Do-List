@@ -16,7 +16,7 @@ export function Header() {
             <li className="item">
               <Link to="/">Home </Link>
             </li>
-            <li className="item"></li>
+            <li className="item">
               <Link to="/cadastro">Cadastro </Link>
             </li>
             <li className="item">
