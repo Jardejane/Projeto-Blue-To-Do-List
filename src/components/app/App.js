@@ -4,7 +4,6 @@ import { Footer } from '../footer/Footer';
 import { Home } from '../../pages/home/Home';
 import { Header } from '../headers/header';
 import { Cadastro } from '../../pages/cadastro/cadastro';
-import { Filmform } from '../films/films.form';
 import { Container } from '../layout/containers';
 import { Newfilme } from '../../pages/cadastro/newfilm';
 import { Films } from '../films/films';
@@ -21,7 +20,6 @@ function App() {
           <Route exact path="/cadastro">
             <Cadastro />
           </Route>
-
           <Route exact path="/todos/filmes">
             <Films />
           </Route>
