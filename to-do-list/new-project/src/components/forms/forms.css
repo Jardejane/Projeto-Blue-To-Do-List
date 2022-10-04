@@ -1,0 +1,22 @@
+.FormDadosController {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.FormDadosController label {
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 9px;
+  font-weight: bold;
+}
+.FormDadosController input {
+  width: 200px;
+  padding: 7px;
+  border-radius: 2px;
+  border: none;
+}
+.FormDadosController input::placeholder {
+  color: #7b7b7b;
+}

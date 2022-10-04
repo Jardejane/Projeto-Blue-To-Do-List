@@ -1,0 +1,21 @@
+.container {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+
+  align-items: center;
+  justify-content: center;
+
+  flex: box;
+  flex-direction: column;
+}
+.container h1 {
+  margin: 10px;
+  font-size: 2rem;
+}
+
+.container p {
+  color: rgb(37, 55, 68);
+  font-size: 1.5rem;
+  margin-bottom: 7px;
+}

@@ -1,0 +1,29 @@
+.cadastro_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.cadastro_container h1 {
+  color: rgb(14, 28, 127);
+  font-size: 2.2rem;
+  margin-bottom: 0.4rem;
+}
+.cadastro_container h1 span {
+  color: rgb(27, 61, 120);
+  padding: 7px;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+.cadastro_container p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: rgb(33, 36, 91);
+}
+.cadastro_container img {
+  height: 187px;
+  width: 300px;
+}

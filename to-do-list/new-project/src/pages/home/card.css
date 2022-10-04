@@ -1,0 +1,61 @@
+.container-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+  height: 60vh;
+  margin-left: 20px;
+  border-radius: 2rem;
+
+  background-color: rgb(15, 126, 126);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.imagem {
+  height: 22vh;
+  width: 11vw;
+
+  border-radius: 1rem;
+  margin-bottom: 15px;
+  margin-left: 3.4vw;
+}
+span {
+  color: rgb(6, 22, 110);
+}
+p {
+  color: rgb(43, 5, 65);
+}
+.informações-button {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+.informações-button a,
+.informações-button button {
+  text-decoration: none;
+  border: none;
+  color: #222;
+  background-color: rgb(133, 164, 192);
+  font-size: 0.9em;
+  padding: 4px;
+  margin-left: 19px;
+  margin-top: 9px;
+  cursor: pointer;
+  border: 1px solid #222;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.informações-button {
+  margin-right: 0.5em;
+}
+.informações-button a:hover,
+.informações-button button:hover {
+  background-color: #222;
+  color: #7a5c21;
+}

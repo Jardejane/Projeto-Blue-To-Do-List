@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 10px 2rem;
+}
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.item {
+  margin: 10px;
+}
+.item a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.item a:hover {
+  color: blue;
+}
+img {
+  height: 40px;
+  width: 40px;
+}

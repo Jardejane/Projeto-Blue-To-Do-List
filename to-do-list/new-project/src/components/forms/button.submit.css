@@ -1,0 +1,23 @@
+.button-form {
+  padding: 6px;
+  border-radius: 100px;
+  border: none;
+
+  width: 140px;
+
+  margin-top: 4px;
+}
+
+.button-form {
+  background-color: rgb(5, 52, 18);
+  color: azure;
+  padding: 6px;
+  text-decoration: none;
+  transition: 0.5s;
+  cursor: pointer;
+  border: none;
+}
+
+.button-form {
+  color: rgb(195, 221, 226);
+}

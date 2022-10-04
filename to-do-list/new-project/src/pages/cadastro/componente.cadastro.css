@@ -1,0 +1,12 @@
+.button-cadastro {
+  background-color: #222;
+  color: rgb(132, 162, 162);
+  padding: 0.3rem 1rem;
+  text-decoration: none;
+  transition: 0.5;
+  border-radius: 10px;
+  margin: 0 0 10px;
+}
+.button-cadastro:hover {
+  color: rgb(26, 74, 152);
+}
