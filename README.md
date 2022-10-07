@@ -6,8 +6,11 @@ Os requisitos 👇👇👇
 
 Endpoints
 [POST] Criar Filme;
+
 [GET] Leitura de todas os Filmes;
+
 [GET] Leitura de filme individuais (por ID);;
+
 [DELETE] Exclusão de filme por ID;
 
 Requisitos
