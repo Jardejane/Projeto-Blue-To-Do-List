@@ -25,7 +25,7 @@ Persistência de dados no MongoDB ;JARDEJANE FEITOSA LIMA
 Para fazer o deploy desse projeto na maquina rode
 
 ```bash
-  npm run start
+  npm run dev
 ```
  
 Para fazer o deploy desse projeto pelo Hiroku
