@@ -7,6 +7,7 @@ import { Cadastro } from '../../pages/cadastro/cadastro';
 import { Container } from '../layout/containers';
 import { Newfilme } from '../../pages/cadastro/newfilm';
 import { Films } from '../films/films';
+import {Editar} from '../editar/edite'
 
 function App() {
   return (
@@ -17,14 +18,17 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/cadastro">
+          <Route path="/cadastro">
             <Cadastro />
           </Route>
-          <Route exact path="/todos/filmes">
+          <Route  path="/todos/filmes">
             <Films />
           </Route>
-          <Route exact path="/newfilme">
+          <Route  path="/newfilme">
             <Newfilme />
+          </Route>
+          <Route  path="/films/:id">
+            <Editar/>
           </Route>
         </Container>
       </Switch>

@@ -1,5 +1,7 @@
 import { useHistory } from 'react-router-dom';
+
 import './newfilm.css';
+
 import { Filmform } from '../../components/films/films.form';
 
 export function Newfilme() {

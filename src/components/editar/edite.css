@@ -1,0 +1,71 @@
+.geral{
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.geral h1,
+.geral h2,
+.geral p {
+    margin-bottom: .5em;
+}
+
+.geral h1{
+    font-size: 1rem;
+    background-color: rgb(15, 38, 79);
+    color: rgb(129, 205, 179);
+    padding: 1em;
+    margin-bottom: .5em;
+}
+.geral span {
+    font-weight: bold;
+}
+
+.detalhes,
+.serviceForm {
+  border-bottom: 1px solid #7a7a7a7a;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-items: stretch;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+}
+
+.btn {
+    background-color: rgb(15, 98, 49);
+    color: aliceblue;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    max-height: 40px;
+    border: none;
+    width: 10vw;
+    margin-left: 10vw;
+}
+
+.btn:hover{
+    color: rgb(0, 0, 0);
+}
+
+.geral .film-inf {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(69, 134, 113);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.geral .film-card{
+   width: 100%;
+}
+.gg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  
+}

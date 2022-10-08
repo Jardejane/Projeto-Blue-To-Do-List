@@ -42,9 +42,9 @@ export function FilmCard({
         </p>
       </section>
       <section className="informações-button">
-        {/* <Link to= {`/films/${id}`}>
+        <Link to= {`/films/${id}`}>
                 <BsPencil/> Editar
-            </Link> */}
+            </Link>
         {handleRemove ? (
           <button className="remover" onClick={remove}>
             <BsFillTrashFill /> Excluir
